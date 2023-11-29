@@ -4,5 +4,10 @@
 }
 
 .content-center {
-  max-width: 800px;
+  max-width: 80rem;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
 }
