@@ -37,11 +37,11 @@
 }
 
 .navigation {
-
   // display: none;
   visibility: hidden;
   opacity: 0;
-  transition: visibility .3s ease-in-out, opacity .5s linear;
+  transition: visibility .3s ease-in-out, opacity .5s linear, height .5s linear;
+  height: 0;
 
   @include tablet {
     display: flex;
@@ -84,6 +84,7 @@
 .show {
   visibility: visible;
   opacity: 1;
+  height: auto;
   // display: flex;
   // flex-direction: column;
 
